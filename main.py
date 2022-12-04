@@ -81,3 +81,7 @@ res=collection.find()
 
 for i in res:
     print(i)
+
+#for getting interseted if
+col.inserted_id
+col.inserted_id
