@@ -95,3 +95,55 @@ result=collection.find()
 record=collection.find()
 
 result=collection.find({},{'GRE Score','TOEFL Score'})
+my_rows = [
+{'Serial No': '9997',
+ 'GRE Score': '337',
+ 'TOEFL Score': '118',
+ 'University Rating': '4',
+ 'SOP': '4.5',
+ 'LOR': '4.5',
+ 'CGPA': '9.65',
+ 'Research': '1',
+ 'Chance of Admit': '0.92'},
+  {
+    'Serial No': '9996',
+ 'GRE Score': '336',
+ 'TOEFL Score': '118',
+ 'University Rating': '4',
+ 'SOP': '4.5',
+ 'LOR': '4.5',
+ 'CGPA': '9.6',
+ 'Research': '0',
+ 'Chance of Admit': '0.92'},
+  {
+    'Serial No': '9995',
+ 'GRE Score': '337',
+ 'TOEFL Score': '118',
+ 'University Rating': '4',
+ 'SOP': '4.5',
+ 'LOR': '4.5',
+ 'CGPA': '9.5',
+ 'Research': '1',
+ 'Chance of Admit': '0.92'},
+  {
+    'Serial No': '9994',
+ 'GRE Score': '334',
+ 'TOEFL Score': '119',
+ 'University Rating': '4',
+ 'SOP': '4.5',
+ 'LOR': '4.5',
+ 'CGPA': '9.4',
+ 'Research': '1',
+ 'Chance of Admit': '0.92'},
+  {
+    'Serial No': '9993',
+ 'GRE Score': '337',
+ 'TOEFL Score': '118',
+ 'University Rating': '4',
+ 'SOP': '4.5',
+ 'LOR': '4.5',
+ 'CGPA': '9.65',
+ 'Research': '1',
+ 'Chance of Admit': '0.92'}
+
+]
