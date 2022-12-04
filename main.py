@@ -36,3 +36,21 @@ dbConn = pymongo.MongoClient("mongodb://localhost:27017/")
 dbname='ineuron'
 
 db=dbConn[dbname]
+
+collection_name='mongo_demo'
+
+collection=db[collection_name]
+
+my_row = {'Serial No': '9998',
+ 'GRE Score': '337',
+ 'TOEFL Score': '118',
+ 'University Rating': '4',
+ 'SOP': '4.5',
+ 'LOR': '4.5',
+ 'CGPA': '9.65',
+ 'Research': '1',
+ 'Chance of Admit': '0.92'}
+
+
+col=collection.insert_one(my_row)
+
