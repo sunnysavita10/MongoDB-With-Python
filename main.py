@@ -147,3 +147,14 @@ my_rows = [
  'Chance of Admit': '0.92'}
 
 ]
+#task for today's session
+import pandas as pd
+
+dataframe=pd.read_csv("https://raw.githubusercontent.com/vigneshk/Admission-Dataset/master/Admission.csv")
+
+"""
+1. create a database iNeuron
+2. create a collection Addmision_details
+3. you have to dump this dataframe to mongodb collection.
+
+"""
