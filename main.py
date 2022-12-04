@@ -54,3 +54,30 @@ my_row = {'Serial No': '9998',
 
 col=collection.insert_one(my_row)
 
+my_rows=[
+    {'Serial No': '9998',
+ 'GRE Score': '337',
+ 'TOEFL Score': '118',
+ 'University Rating': '4',
+ 'SOP': '4.5',
+ 'LOR': '4.5',
+ 'CGPA': '9.65',
+ 'Research': '1',
+ 'Chance of Admit': '0.92'},
+
+ {'Serial No': '1000',
+ 'GRE Score': '310',
+ 'TOEFL Score': '100',
+ 'University Rating': '2',
+ 'SOP': '4.2',
+ 'LOR': '3.5',
+ 'CGPA': '9.00',
+ 'Research': '0',
+ 'Chance of Admit': '0.70'}] 
+
+collection.insert_many(my_rows)
+
+res=collection.find()
+
+for i in res:
+    print(i)
