@@ -85,3 +85,11 @@ for i in res:
 #for getting interseted if
 col.inserted_id
 col.inserted_id
+
+#for getting limited record
+result_total=collection.find({}).limit(2)
+
+# without curly braces you won't be able to get single record(record[1] it won't work here)
+#you will have to add curly baces.
+result=collection.find()
+record=collection.find()
