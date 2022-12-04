@@ -93,3 +93,5 @@ result_total=collection.find({}).limit(2)
 #you will have to add curly baces.
 result=collection.find()
 record=collection.find()
+
+result=collection.find({},{'GRE Score','TOEFL Score'})
