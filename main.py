@@ -27,3 +27,12 @@ for idx, record in enumerate(all_record):
 
 
 #today class
+
+import pymongo
+
+#connect with the mongodb
+dbConn = pymongo.MongoClient("mongodb://localhost:27017/")
+
+dbname='ineuron'
+
+db=dbConn[dbname]
